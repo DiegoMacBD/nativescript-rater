@@ -1,5 +1,5 @@
 import {AppRaterBase, AppRaterConfigs, defaultConfigs} from './rater.common';
-import * as application from 'tns-core-modules/application';
+import {Application as application} from '@nativescript/core';
 
 let _appRater: hotchemi.android.rate.AppRate;
 

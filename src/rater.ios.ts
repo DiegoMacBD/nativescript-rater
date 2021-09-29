@@ -1,5 +1,5 @@
 import {AppRaterBase, AppRaterConfigs, defaultConfigs} from './rater.common';
-import {topmost} from 'tns-core-modules/ui/frame';
+import {topmost} from '@nativescript/core/ui/frame';
 
 function currentViewController(): any {
     let vc = topmost().ios.controller;
